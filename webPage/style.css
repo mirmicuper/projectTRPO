@@ -1,0 +1,33 @@
+/* cyrillic */
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotocondensed/v19/ieVi2ZhZI2eCN5jzbjEETS9weq8-33mZGCAYb9lecyVC4A.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+* {
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+body {
+    background-color: antiquewhite;
+}
+
+.goals {
+    border: 1px solid rgb(107, 107, 107);
+
+}
+.worktime {
+    border: 1px solid rgb(107, 107, 107);
+}
+.team {
+    border: 1px solid rgb(107, 107, 107);
+}
+.team li {
+    width: 150px;
+}
+.team ul {
+    padding-left: 650px;
+}
