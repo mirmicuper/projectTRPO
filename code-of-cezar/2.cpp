@@ -1,26 +1,28 @@
 ﻿#include <iostream>
 #include <Windows.h>
 using namespace std;
+
 int main(){
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	const int c = 100;
 	char a[c],rez[c];
 	int k, b, len,rot;
-	cout << "введите строку ";
+	cout << "Введите строку ";
 	cin.getline(a, 100);
 	cout << "ROT ";
 	cin >> rot;
-	cout << "язык 1-англ, 2-рус ";
+	cout << "Язык 1-англ, 2-рус ";
 	cin >> k;
 	len = strlen(a);
 
 	if (rot == 0) {
-		cout << "Ты дурак? тебе вообще сдвигать надо или нет?";
+		cout << "Ты дурак? Тебе вообще сдвигать надо или нет?";
 		return 0;
 	}
 
 	switch (k) {
+
 	case 1:
 		if (rot > 0) {
 			for (int i = 0; i < len; i++) {
@@ -61,6 +63,7 @@ int main(){
 			}
 		}
 		break;
+
 	case 2:
 		cout << "буквы ё и Ё не учитываются" << endl;
 		if (rot > 0) {
@@ -103,5 +106,6 @@ int main(){
 		}
 		break;
 	}
+
 	return 0;
 }
