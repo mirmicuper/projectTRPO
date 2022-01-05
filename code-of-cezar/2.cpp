@@ -42,6 +42,10 @@ int main(){
 					rez[i] = (int)a[i] + rot;
 					cout << rez[i];
 				}
+
+				if (a[i] == ' ') {
+					cout << " ";
+				}
 			}
 		}
 		if (rot < 0) {
@@ -59,6 +63,10 @@ int main(){
 				if ((int)a[i] <= 90 && (int)a[i] >= 65 && (int)a[i] + rot <= 90 && (int)a[i] + rot >= 65 || (int)a[i] <= 122 && (int)a[i] >= 97 && (int)a[i] + rot <= 122 && (int)a[i] + rot >= 97) {
 					rez[i] = (int)a[i] + rot;
 					cout << rez[i];
+				}
+
+				if (a[i] == ' ') {
+					cout << " ";
 				}
 			}
 		}
@@ -84,6 +92,10 @@ int main(){
 					rez[i] = (int)a[i] + rot;
 					cout << rez[i];
 				}
+
+				if (a[i] == ' ') {
+					cout << " ";
+				}
 			}
 		}
 		if (rot < 0) {
@@ -101,6 +113,10 @@ int main(){
 				if ((int)a[i] >= -64 && (int)a[i] <= -33 && (int)a[i] + rot <= -33 && (int)a[i] + rot >= -64 || (int)a[i] >= -32 && (int)a[i] <= -1 && (int)a[i] + rot <= -1 && (int)a[i] + rot >= -32) {
 					rez[i] = (int)a[i] + rot;
 					cout << rez[i];
+				}
+
+				if (a[i] == ' ') {
+					cout << " ";
 				}
 			}
 		}
